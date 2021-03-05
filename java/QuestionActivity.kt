@@ -68,7 +68,7 @@ class QuestionActivity : AppCompatActivity() {
             } else numberSelected as Int)
         }
 
-        //if every single number is asked, the list of numbers asked is cleared
+        //if every single number has been asked, the list of numbers asked is cleared
         if (numbersAsked.size == 12){
             numbersAsked = mutableListOf<Int>()
         }
